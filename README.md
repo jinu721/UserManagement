@@ -1,6 +1,4 @@
-Here’s a structured and detailed **README** for your user management app, following the style of your sample. This README includes all the necessary sections to help users understand your project:
-
-```markdown
+```markdown ```
 # User Management App
 
 ## Live Demo
