@@ -67,4 +67,3 @@ This project was created by Jinu. You can contact me at [jinu8683@gmail.com](mai
 ---
 
 This project is open-source and available on my GitHub account [jinu721](https://github.com/jinu721) for anyone to use and contribute.
-```
