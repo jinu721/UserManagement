@@ -1,0 +1,259 @@
+@font-face {
+    font-family: custom ;
+    src: url(../font/custom.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(31, 29, 29);
+    color: white;
+    font-family: custom, sans-serif;
+}
+
+/* reg1 */
+#bg-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100% ;
+    height: 100vh;
+}
+#img-back{
+    display: none;
+}
+.txt-header{
+    margin: 0px -10px 0px 0px;
+}
+.txt-header2{
+    color: rgb(212, 193, 180);
+    margin: 0px -10px 0px 0px;
+}
+#txt-createAccount{
+    font-size: 35px;
+}
+#txt-joinCommunity{
+    font-size: 15px;
+    color: grey;
+}
+.inp {
+  display: flex;
+  width: 294px;
+  font-size: 11px;
+  height: 38px;
+  margin: 20px 0px 0px 0px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgb(118, 110, 110);
+}
+.btn-reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    border: none;
+    margin: 30px 0px 0px 0px;
+}
+#txt-btn1{
+    background: transparent;
+}
+.loader-bar {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #0b0101;
+  border-radius: 50%;
+  border-top-color: #f8f9fa;
+  background: transparent;
+  animation: loader 1s linear infinite;
+}
+
+#loader-continue{
+    display: none;
+}
+
+.txt-bottom{
+    font-size: 10px;
+    margin: 10px 0px 0px 0px;
+    color: rgba(133, 129, 129, 0.901);
+}
+
+
+@keyframes loader {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* reg2 */
+
+#bg-2{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100% ;
+    height: 100vh;
+}
+#section-imageAndInput{
+    display: flex;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+}
+#img-profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px 10px 0px -20px;
+    filter: brightness(60%);
+}
+#image-picker{
+    display: none;
+}
+#img-add{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: 50px 0px 0px 10px;
+    background: transparent;
+    filter: grayscale(100%) invert(100%);
+}
+.inp-2{
+    display: flex;
+    width: 210px;
+    font-size: 11px;
+    height: 38px;
+    margin: 10px 0px 0px 0px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(118, 110, 110);
+}
+
+#txt-btn2{
+    background: transparent;
+}
+#loader-register{
+    display: none;
+}
+
+/* home */
+
+#section-userInfo{
+    display: flex;
+}
+#img-profileHome{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px 0px 0px 0px;
+    filter: brightness(60%);
+}
+#txt-nickname{
+    margin-top: 35px;
+}
+#txt-username{
+    margin-top: 10px;
+}
+#txt-uid{
+    margin: 10px 0px 0px 0px;
+}
+#txt-email{
+    margin: 10px 0px 0px 0px;
+}
+#section-btn button{
+    margin: 20px 10px 0px 0px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+#section-btn button{
+    background-color: red;
+}
+
+#popup{
+
+    display: none ;
+    flex-direction: column;
+    top: 200px;
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    border: solid 1px rgba(128, 128, 128, 0.19);
+}
+#popup img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px 0px 0px 100px;
+    filter: brightness(60%);
+}
+#popup input{
+    height: 15px;
+    width: 250px;
+    padding: 10px;
+    outline: none;
+    margin: 20px 0px 0px 13px;
+    border-radius: 10px;
+    border: solid 2px rgba(79, 78, 78, 0.632);
+}
+#popup button{
+    width: 120px;
+    height: 30px;
+    margin: 10px 0px 0px 15px;
+    border-radius: 10px;
+    border: none;
+}
+#popup button:first-child{
+    margin-right: 5px;
+    border: solid 1px rgba(128, 128, 128, 0.189);
+}
+#popup button:last-child{
+    background-color: rgb(13, 0, 255);
+    color: white;
+}
+
+#inp-file{
+    display: none;
+}
+
+/* login  */
+
+#txt-login{
+    background: transparent;
+}
+#loader-login{
+    display: none;
+}
+
+
+#alert{
+
+    display: none;
+    width: auto;
+    height: 25px;
+    margin-top:20px ;
+    background: rgb(101, 24, 24);
+    border-radius: 10px;
+}
+#alert p{
+
+    font-size: 10px;
+    background: transparent;
+    color: white;
+    margin: 5px 10px 0px 10px;
+}
+
+
+.admin-img{
+    height: 40px;
+    width: 40px;
+}

@@ -1,0 +1,113 @@
+@font-face {
+    font-family: custom ;
+    src: url(../font/custom.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(27, 27, 27);
+    font-family: custom, sans-serif;
+}
+#bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headSection{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.section2{
+    display: flex;
+}
+
+
+
+#popup{
+
+    display: none ;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+    background: white;
+    border: solid 1px rgba(128, 128, 128, 0.19);
+}
+#popup img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px 0px 0px 100px;
+    filter: brightness(60%);
+}
+#popup input{
+    height: 35px;
+    width: 260px;
+    padding: 10px;
+    outline: none;
+    margin: 20px 0px 0px 13px;
+    border-radius: 10px;
+    border: solid 2px rgba(79, 78, 78, 0.632);
+}
+#popup button{
+    width: 120px;
+    height: 30px;
+    margin: 10px 0px 0px 15px;
+    border-radius: 10px;
+    border: none;
+}
+#popup button:first-child{
+    margin-right: 5px;
+    border: solid 1px rgba(128, 128, 128, 0.189);
+}
+#popup button:last-child{
+    background-color: rgb(13, 0, 255);
+    color: white;
+}
+
+#inp-file{
+    display: none;
+}
+
+.searchSection{
+    display: flex;
+    width: 400px;
+}
+.search-btn{
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+#alert{
+    display: none;
+    width: auto;
+    height: 25px;
+    margin:0px 0px 15px 0px ;
+    background: rgb(214, 48, 48);
+    border-radius: 10px;
+}
+#alert p{
+    font-size: 10px;
+    background: transparent;
+    color: white;
+    margin: 5px 10px 0px 10px;
+}
+
+.errTd{
+    height: 250px;
+}
+.errMsg{
+    position: absolute;
+    left: 45%;
+    top: 60%;
+   color: red;
+}
+#showusers{
+    height: 40px;
+    width: 150px;
+}

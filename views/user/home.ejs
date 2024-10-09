@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <div id="bg-1" >
+        <div>
+            <% if(user.role==='admin'){ %>
+                <img class="admin-img" src="images/admin.png" alt="">
+            <% } %>
+            <div id="userInfo">
+                <h3>User Info</h3>
+                <p class="txt-name" id="txt-username" >Username : <%= user.username %></p>
+                <p id="txt-uid" >UID : <%= user._id %></p>
+                <p id="txt-email" >Email : <%= user.email %> </p>
+                <div id="section-btn" >
+                    <button id="btn-logout" >Logout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/home.js" ></script>
+</body>
+</html>
