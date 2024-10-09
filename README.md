@@ -1,4 +1,3 @@
-```markdown ```
 # User Management App
 
 ## Live Demo
