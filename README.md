@@ -41,7 +41,7 @@ To ensure a secure and efficient experience, please note:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/user-management-app.git
+   git clone https://github.com/jinu721/UserManagement.git
    cd user-management-app
    ```
 
@@ -69,10 +69,3 @@ This project was created by Jinu. You can contact me at [jinu8683@gmail.com](mai
 
 This project is open-source and available on my GitHub account [jinu721](https://github.com/jinu721) for anyone to use and contribute.
 ```
-
-### Customization Notes:
-- Replace `https://your-live-demo-link.com` with the actual link to your live demo if available.
-- Update the GitHub clone URL (`https://github.com/yourusername/user-management-app.git`) with your actual repository link.
-- Feel free to modify any sections to better match your preferences or project details.
-
-This structured format provides clarity and makes it easy for users to understand the purpose and functionality of your project!
